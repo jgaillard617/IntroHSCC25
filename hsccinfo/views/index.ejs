@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <style>
-      h2 {color:azure;}
-    </style>
-  </head>
+   <!-- head partial gets included here -->
+   <%- include('./partials/head') -%>
   <body>
-    <!-- This is our horizontal navbar-->
-<ul class="menu">
-<li><a href="/"> <img src="images/Black-Data-Processing-Associates.png" height="25">  </a></li>
-<li><a href="/"> Home </a></li>
-<li> <a href="/bdpahistory">BDPA History</a></li>
-<li><a href="#"> Sample Form </a></li>
-</ul>
-<!--End navbar-->
-<br><br><br>
+ <!-- include menu here -->
+  <%- include('./partials/menu') -%>
 
     <h1> Welcome to BDPA 2025 </h1>
     <h2> My name is Janaya </h2>
