@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<!-- Include menu here-->
+<%- include('./partials/head')
+<body>
+    <!-- head partials gets included here -->
+     <%- include('./partials/menu') -%>
+
+     <h1> Election count information </h1>
+     <p> Upcoming Elections: <%= upcomingElections %> </p>
+     <p> Open Elections <%= openEelections %> </p>
+     <p> Closed Elections <%= closedElections %> </p>
+</body>
+</html>
